@@ -21,7 +21,7 @@ const Index = () => {
         <HeroSection />
         
         {/* Features Section */}
-        <section className="bg-wedding-cream py-16 md:py-24">
+        <section className="bg-[#ecddca] py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
               <h5 className="inline-block font-sans text-sm tracking-wider uppercase mb-3 px-3 py-1 bg-wedding-gold/10 rounded-full text-wedding-charcoal">
@@ -36,7 +36,7 @@ const Index = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-              <div className="bg-wedding-cream p-6 rounded-xl border border-gray-100 shadow-sm text-center">
+              <div className="bg-[#ecddca] p-6 rounded-xl border border-gray-100 shadow-sm text-center">
                 <div className="w-14 h-14 rounded-full bg-wedding-gold/10 flex items-center justify-center mx-auto mb-6">
                   <Image size={24} className="text-wedding-gold" />
                 </div>
@@ -49,7 +49,7 @@ const Index = () => {
                 </Link>
               </div>
               
-              <div className="bg-wedding-cream p-6 rounded-xl border border-gray-100 shadow-sm text-center">
+              <div className="bg-[#ecddca] p-6 rounded-xl border border-gray-100 shadow-sm text-center">
                 <div className="w-14 h-14 rounded-full bg-wedding-gold/10 flex items-center justify-center mx-auto mb-6">
                   <Edit3 size={24} className="text-wedding-gold" />
                 </div>
@@ -62,7 +62,7 @@ const Index = () => {
                 </Link>
               </div>
               
-              <div className="bg-wedding-cream p-6 rounded-xl border border-gray-100 shadow-sm text-center">
+              <div className="bg-[#ecddca] p-6 rounded-xl border border-gray-100 shadow-sm text-center">
                 <div className="w-14 h-14 rounded-full bg-wedding-gold/10 flex items-center justify-center mx-auto mb-6">
                   <Send size={24} className="text-wedding-gold" />
                 </div>
@@ -79,7 +79,7 @@ const Index = () => {
         </section>
         
         {/* Featured Invitations */}
-        <section className="bg-wedding-cream py-16 md:py-24">
+        <section className="bg-[#ecddca] py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
               <h5 className="inline-block font-sans text-sm tracking-wider uppercase mb-3 px-3 py-1 bg-wedding-gold/10 rounded-full text-wedding-charcoal">
@@ -146,7 +146,7 @@ const Index = () => {
         </section>
         
         {/* Benefits Section */}
-        <section className="bg-wedding-cream py-16 md:py-24">
+        <section className="bg-[#ecddca] py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
@@ -209,7 +209,7 @@ const Index = () => {
         </section>
         
         {/* Testimonials */}
-        <section className="bg-wedding-cream py-16 md:py-24">
+        <section className="bg-[#ecddca] py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
               <h5 className="inline-block font-sans text-sm tracking-wider uppercase mb-3 px-3 py-1 bg-wedding-gold/10 rounded-full text-wedding-charcoal">
@@ -224,7 +224,7 @@ const Index = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-[bg-wedding-cream] p-6 rounded-xl border border-gray-100 shadow-sm">
+              <div className="bg-[bg-[#ecddca]] p-6 rounded-xl border border-gray-100 shadow-sm">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
                     <Heart key={i} size={16} className="text-wedding-gold" fill="currentColor" />
@@ -246,7 +246,7 @@ const Index = () => {
                 </div>
               </div>
               
-              <div className="bg-[bg-wedding-cream] p-6 rounded-xl border border-gray-100 shadow-sm">
+              <div className="bg-[bg-[#ecddca]] p-6 rounded-xl border border-gray-100 shadow-sm">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
                     <Heart key={i} size={16} className="text-wedding-gold" fill="currentColor" />
@@ -268,7 +268,7 @@ const Index = () => {
                 </div>
               </div>
               
-              <div className="bg-[bg-wedding-cream] p-6 rounded-xl border border-gray-100 shadow-sm">
+              <div className="bg-[bg-[#ecddca]] p-6 rounded-xl border border-gray-100 shadow-sm">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
                     <Heart key={i} size={16} className="text-wedding-gold" fill="currentColor" />
@@ -294,7 +294,7 @@ const Index = () => {
         </section>
         
         {/* CTA Section */}
-        <section className="bg-[bg-wedding-cream] py-16 md:py-24 relative overflow-hidden">
+        <section className="bg-[bg-[#ecddca]] py-16 md:py-24 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
             <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-wedding-blush/40 blur-3xl"></div>
             <div className="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-wedding-gold/20 blur-3xl"></div>

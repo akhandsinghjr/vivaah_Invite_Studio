@@ -34,15 +34,15 @@ const HeroSection = () => {
           </div>
         </div>
         
-        <div className="mt-12 md:mt-20 glass-panel p-6 md:p-8 max-w-5xl mx-auto animate-zoom-in" style={{ transitionDelay: '800ms' }}>
-          <div className="aspect-[16/9] rounded-lg overflow-hidden shadow-lg">
-            <img 
-              src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1200&h=675&q=80" 
-              alt="Wedding invitation preview" 
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-            />
-          </div>
+        <div className="mt-8 md:mt-12 glass-panel p-4 md:p-6 max-w-md mx-auto animate-zoom-in" style={{ transitionDelay: '600ms' }}>
+        <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-lg">
+          <img 
+            src="src\components\invite.png"
+            alt="Wedding invitation preview" 
+            className="w-full h-full object-cover hover:scale-102 transition-transform duration-500"
+          />
         </div>
+      </div>  
       </div>
     </section>
   );
