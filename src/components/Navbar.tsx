@@ -23,13 +23,13 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4 ${
+        isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-[#e2caa7]'
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-1">
-          <span className="font-script text-2xl text-wedding-gold">Invite</span>
+          <span className="font-script text-2xl text-wedding-charcoal">Invite</span>
           <span className="font-serif text-xl text-wedding-charcoal">Studio</span>
         </Link>
 
@@ -70,13 +70,13 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-4">
           <Link 
             to="/login" 
-            className="text-wedding-charcoal font-medium hover:text-wedding-gold transition-colors"
+            className="text-black font-medium hover:text-gray-700 transition-colors"
           >
             Log in
           </Link>
           <Link 
             to="/signup" 
-            className="px-4 py-2 bg-wedding-gold text-white rounded-md transition-all hover:bg-opacity-90"
+            className="px-4 py-2 bg-[#7c4525] text-wedding-cream rounded-md transition-all hover:bg-opacity-80"
           >
             Get Started
           </Link>
