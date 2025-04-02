@@ -8,14 +8,14 @@ const Browse = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       
-      <main className="flex-grow pt-24">
+      <main className="flex-grow pt-19">
         {/* Page Header */}
-        <div className="bg-wedding-cream py-12 md:py-20">
+        <div className="bg-[#571239] py-12 md:py-20">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-wedding-charcoal mb-4">
+            <h1 className="text-3xl md:text-4xl pt-14 lg:text-5xl font-serif font-medium text-[#F5F5DC] mb-4">
               Browse Our Collection
             </h1>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            <p className="text-wedding-cream text-lg max-w-2xl mx-auto">
               Explore our curated selection of beautiful digital wedding invitations designed to make your special day even more memorable.
             </p>
           </div>

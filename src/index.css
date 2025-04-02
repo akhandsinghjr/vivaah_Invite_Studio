@@ -62,7 +62,7 @@
   }
 
   .nav-link {
-    @apply relative px-4 py-2 font-medium text-wedding-charcoal hover:text-black transition-colors after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-wedding-gold after:transition-all hover:after:w-full;
+    @apply relative px-4 py-2 font-medium text-black hover:text-wedding-charcoal transition-colors after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-gray-700 after:transition-all hover:after:w-full;
   }
 
   .btn-primary {
